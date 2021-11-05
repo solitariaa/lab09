@@ -1,0 +1,8 @@
+Q1: BasicAuthentication and Sessionauthentication. BasicAuthentication is managed by username and password while Sessionauthentication is managed by sessions.
+Q2: BasicAuthentication
+Q3: The session is maintained by the server side, for the token user need to keep a good copy, it's user's responsibility to ensure the token is not shared with anyone else.
+    We no longer need to type our username and password, so we don't have the risk to expose our password if we prefer to use the same password for different websites.
+Q4: After I click log in with google, google will send an authorization request for the resources to user and receive an authorization grant.
+    Then with the grant and its identity google will get user's token from Authorization Server.
+    Finally google will user the token to get resource from resource server.
+Q5: https://github.com/solitariaa/lab09.git
